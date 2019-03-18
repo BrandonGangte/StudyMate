@@ -1,0 +1,339 @@
+body{
+    background-color: #ededed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    font-family: 'pacifico',sans-serif;
+    margin: 0px;
+    color:#dddddd;
+    border-style: none;
+}
+.test{
+    margin-top: 3pc;
+   
+}
+
+.test img{
+    height: 19pc;
+    width: 100%;
+}
+
+
+.row{
+    margin-top:-8pc;
+}
+
+.sidenav h5{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.navbar p{
+    color: #909090;
+}
+
+.navbar p:hover{
+    color: aliceblue;
+}
+
+.sidenav p{
+    padding: 10px;
+    font-family: 'Open sans',sans-serif;
+    font-size: 17px;
+    background-color: rgba(165, 165, 165, 0.8);
+}
+
+.col-sm-4{
+    padding: 10px;
+}
+
+.col-sm-4 p{
+    margin-right: 4pc;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Departments Selection  */
+.btn-group{
+    margin-bottom: 11px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+}
+
+.btn-group button {
+    background-color: #f7f7f7; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: black; /* White text */
+    padding: 13px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: rgba(96, 43, 159, 0.6);
+}
+
+
+/* Ends here */
+
+
+
+.sidenav p:hover{
+    background-color: rgba(96, 43, 159, 0.6);
+}
+
+.sidenav a{
+     text-decoration: none;
+    color: black !important;
+}
+
+.sidenav a:hover{
+    color: #7c2b8b !important;
+}
+
+.trap img{
+    border-radius: 10px;
+}
+
+.trap img:hover{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+}
+
+.col-sm-8{
+    padding: 50px;
+    padding-left: 5pc;
+    background-color: transparent; 
+    background-color: #cecece;
+    width: 83.3%;
+    margin-top: 8.8%;
+}
+
+/* .navbar-brand{
+      padding: 10px; 
+      padding-right: 350px;
+}
+*/
+
+/* FOOTER */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 30px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-links a:hover{
+    color:#c3c3c3;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/*   FOOTER ENDS HERE */
+
+
+
+nav{
+    background-color:black !important;
+    padding: 12px !important;
+}
+
+hr{
+    border-color: black;
+}
+
+.head:hover{
+    color: none;
+}
+
+.navbar {
+     padding: 11px; 
+     background-color: #280034;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f8f8f8;
+      height: 120%;
+      margin-top: 7.4pc;
+    }
+
+    
+    /* Set black background color, white text and some padding */
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav{
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+      .col-sm-8{width: auto;} 
+    }
