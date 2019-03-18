@@ -1,0 +1,620 @@
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+body{
+	font-family : Arial, sans-serif;
+	width: 100%;
+    background-color: #d9d9d9;
+}
+
+a{
+	color :#dedede !important;
+}
+
+.study:hover{
+    color:#9b9b9b !important;
+}
+
+/*-----------------------------------
+	Navigation Bar Styles
+------------------------------------*/
+
+.navbar{
+	padding: 30px 0;
+	transition:padding 0.4s;
+     background-color: transparent;
+}
+
+
+.imgsize:hover{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.9);
+    
+}
+
+/* Contract the navbar while scrolling */
+
+.navbar.scrolled{
+	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+   background-color: #000000 !important;
+	padding: 12px 0;
+}
+
+
+.Learn{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    text-shadow: #b7b7b7 0 5px;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+
+}
+
+#myNavbar{
+	overflow-x: hidden;
+}
+
+#myNavbar ul li:last-child a{
+	padding-right: 0;
+}
+
+/* Brand name */
+.brand{
+  margin-left:-60px auto;
+}
+
+/* Menu */
+
+.menustyle{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*-----------------------------------
+	Main Picture 
+------------------------------------*/
+
+.headpicture{
+	background:url(../OAYT5G0.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 670px;
+}
+
+content p{
+    font-family: 'Open sans',sans-serif;
+    font-size: 30px;
+    text-decoration-skip:spaces;
+    text-align: center;
+    margin: 220px;
+     color: #ffffff;
+}
+.start{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(137, 61, 172);
+    border:none;   
+    height: 40px;
+    font-family: 'open sans',sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+
+.start:hover{
+        background-color: rgb(132, 52, 168);
+}
+
+
+
+#bol{
+    font-family: 'Merienda One',sans-serif;
+    font-size:40px;
+    color:#141313;
+}
+
+
+content p{
+    font-family: 'raleway',sans-serif;
+    font-size: 44px;
+    color:#d4d4d4;
+}
+/*-----------------------------------
+		Text
+------------------------------------*/
+
+/* Titles */
+
+h1{
+	color: #5a5b5b;
+    text-shadow: #acacac 0 5px;
+	font-size:24px;
+	font-weight: bold;
+	margin-top: 55px;
+	font-family : Cabin, sans-serif;
+}
+
+.con{
+    background-color: #f0f0f0;
+    padding: 40px;
+    padding-bottom: 100px;
+    
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+}
+
+.text-center{
+    width: 100%;
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+/* Paragraphs */
+
+.textStyle{
+	color: #585858;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.5;
+	max-width: 700px;
+	margin: 40px auto 0 auto;
+}
+
+.wrap{
+    background-image: url(../Images2/back.jpg);
+    height:44pc;
+    width: 100%;
+    margin-bottom: -100px;
+    box-shadow: 0 -3px 3px rgba(0,0,0,0.4);
+}
+
+.back img{
+    margin-left: 20%;
+    padding-right: 30px;
+    margin-top: 20%;
+    float: left;
+}
+
+.back p{
+    font-family: 'Merienda One','open sans',sans-serif;
+    font-size: 28px;
+    color:#4b4b4b;
+    margin-top: 9%;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 35pc;
+    margin-left: 6pc;
+    margin-top: 4.5pc;
+    text-align: ;
+}
+
+.text{
+    display: none;
+}
+
+.top{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.textStyle a{
+	text-decoration:none;
+    color:#a0a0a0 !important;
+}
+
+.textStyle a:hover{
+	color: aqua !important;
+}
+
+.wel{
+     font-family: 'Raleway','open sans',sans-serif;
+     font-size: 55px !important;
+    padding-bottom: 30px;
+}
+
+.textstyle a{
+	text-decoration:none;
+    color:#a0a0a0 !important;
+}
+
+.textstyle a:hover{
+	color: aqua !important;
+}
+
+/*-----------------------------------
+	Latest Projects
+------------------------------------*/
+
+/* Container */
+
+.latestProjects{
+	max-width: 900px;
+	margin : 80px auto 0 auto;
+}
+
+.latestProjects p{
+	font-size: 24px;
+	color: #6c6c6c;
+    text-align: center !important;
+	width: 260px;
+	text-align: left;
+	margin: 13px auto 60px auto;
+}
+
+.latestProjects p a{
+	font-size: 12px;
+	display: block;
+	width: 80px;
+	white-space: nowrap;
+	margin-top: 6px;
+}
+
+.latestProjects img{
+	width:260px;
+    border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 30px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-links a:hover{
+    color:#c3c3c3;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+/*   FOOTER ENDS HERE */
+
+/*-----------------------------------
+	Helper classes
+------------------------------------*/
+
+.noPadding{
+	padding:0;
+}
+
+.noBorder{
+	border: 0;
+}
+
+
+/*-----------------------------------
+	Media querries
+------------------------------------*/
+
+/* On smaller screens */
+
+@media (max-width: 992px) {
+	
+	/* General */
+	
+	body{
+		padding-top: 76px;
+	}
+
+	li{
+		padding-left:8px;
+	}
+    
+    .container h1{
+        font-size: 34px !important;
+    }
+	
+	h1 {
+		margin-top: 80px;
+	}
+
+    .back img{
+        margin: center;
+        margin-top: 50px;
+        margin-left: 45px;
+        padding-left: 60px;
+        padding-right: 60px;
+        border-radius: 20px;
+    }
+    
+    .back p{
+          display:none;
+    }
+    
+    .wrap{
+        height: 70pc; 
+    }
+    
+    .top{
+        display: none;
+    }
+    
+    .text{
+        display:inline-block;
+        font-size: 16px;
+        padding: 20px;
+        margin-left:50px;
+        padding-top=20px;
+        font-family: 'Merienda One','open sans',sans-serif;
+        color:#4b4b4b;
+
+    }
+    
+    .footer p{
+    text-align: center;
+    margin-left: 0px;
+}
+
+.back{   
+    height: 1000px;
+}
+
+    
+    
+    
+.footer a{
+    float: right;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+	/* Navigation bar */
+	
+	.navbar{
+		padding: 16px 0;
+	}
+	
+	/* Main picture */
+	
+	.headpicture{
+		height: 250px;
+        margin-top: -75px
+	}
+    .headpicture p{
+        margin: 4px;
+        padding-top:80px; 
+		font-size:0px;
+       
+    }
+	
+	/* Latest Projects */
+	
+	.textStyle{
+		margin-top: 40px;
+	}
+	
+	.titleStyle{
+		margin-top: 70px;
+	}
+	
+    
+    
+.responsiveAlign {
+		text-align: center;
+		padding: 5px ;
+	}
+
+	/* Footer */
+	
+	.footer{
+		margin: 0px auto;
+	}
+	
+	#footerLogoText{
+		
+	}
+	
+	/* Sharing buttons */
+	
+	@media (max-width: 992px) {
+	
+	/* General */
+	
+	body{
+		padding-top: 76px;
+	}
+
+	li{
+		padding-left:8px;
+	}
+	
+	h1 {
+		margin-top: 80px;
+	}
+
+	/* Navigation bar */
+	
+	.navbar{
+		padding: 16px 0;
+	}
+	
+	/* Main picture */
+	
+	.headpicture{
+		height: 250px;
+	}
+	
+	/* Latest Projects */
+	
+	.textStyle{
+		margin-top: 40px;
+	}
+	
+	.titleStyle{
+		margin-top: 70px;
+	}
+	
+.responsiveAlign {
+		text-align: center;
+		padding: 5px ;
+	}
+
+}
+
+/* On bigger screens */ 
+
+@media (min-width: 993px) {
+	
+	/* Sharing buttons */
+	
+	.responsiveAlign {
+		float: right;
+	}
