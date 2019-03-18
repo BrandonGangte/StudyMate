@@ -1,0 +1,122 @@
+body{
+    background-color: #888888;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    font-family: 'pacifico',sans-serif;
+    margin: 0px;
+    color:#dddddd;
+    border-style: none;
+}
+.test{
+    margin-top: 3pc;
+}
+.row{
+    margin-top:-8pc;
+}
+
+.sidenav h5{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.navbar p{
+    color: #909090;
+}
+
+.navbar p:hover{
+    color: aliceblue;
+}
+.ty{
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    height: 67px;
+    background-color: #ffffff;
+    box-shadow: 0 -3px 3px rgba(0,0,0,0.4);
+}
+
+.sidenav p{
+    padding: 10px;
+    font-family: 'Open sans',sans-serif;
+    font-size: 17px;
+    background-color: rgba(165, 165, 165, 0.8);
+}
+.sidenav a{
+     text-decoration: none;
+    color: black !important;
+}
+
+.sidenav a:hover{
+    color: #7c2b8b !important;
+}
+
+.trap img{
+    border-radius: 10px;
+}
+
+.trap img:hover{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+}
+
+.col-sm-8{
+    padding: 20px;
+    background-color: transparent; 
+    background-color: #cecece;
+    width: 83.3%;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+    margin-top: 8.8%;
+}
+
+/* .navbar-brand{
+      padding: 10px; 
+      padding-right: 350px;
+}
+*/
+
+
+nav{
+    background-color:black !important;
+    padding: 12px !important;
+}
+
+hr{
+    border-color: black;
+}
+
+.head:hover{
+    color: none;
+}
+
+.navbar {
+     padding: 11px; 
+     background-color: #280034;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f8f8f8;
+      height: 120%;
+      margin-top: 7.4pc;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav{
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
