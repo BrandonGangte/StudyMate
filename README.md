@@ -75,7 +75,6 @@ StudyMate/
 ## 👥 Contributors
 
 - **Brandon Gangte** - [brandongangte@gmail.com](mailto:brandongangte@gmail.com)
-- **Viphrenuo** - [viphrenuo4kiso@gmail.com](mailto:viphrenuo4kiso@gmail.com)
 
 ## 📍 Contact
 
